@@ -24,7 +24,7 @@ module.exports = {
       "post-deploy":
         "npm install --registry=https://registry.npm.taobao.org && pm2 reload ecosystem.config.js --env production",
       env: {
-        NODE_ENV: "production"
+        NODE_ENV: "production" 
       }
     }
   }
